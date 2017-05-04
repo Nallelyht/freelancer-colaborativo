@@ -47,3 +47,40 @@ nav a{
 
 
 
+/*footer*/
+footer{
+	background-color: #2C3E50;
+	color: #fff;
+	text-align: center;
+	line-height:1.5;
+	width: 100%;
+	height: 200%;
+}
+.footer-col{
+	position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.title-footer{
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+}
+footer p{
+	line-height:1.5;
+	font-size: 20px;
+	text-align: center;
+}
+footer a{
+	color: #18BC9C;
+}
+.copyright{
+	background-color: #233140;
+}
+.copyright p{
+	font-family:  Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+/*termina footer*/
