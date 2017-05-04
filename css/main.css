@@ -2,11 +2,11 @@
  * Estilos de tu proyecto
  */
 /*header*/
-header {
-    
+header { 
     text-align: center;
     background: #18BC9C;
     color: #fff;
+    padding-top: 10%;
 }
 .img-primaria{
     padding-top: 54px; */
@@ -95,9 +95,12 @@ hr.star-primary:after {
 }*/
 
 nav{
+    position: fixed;
     background: #2c3e50;
     color: white;
-
+    width: 100%;
+    top: 0;
+    z-index: 8000;
 }
 .h1-nav{
     font-size: 25px;
