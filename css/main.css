@@ -56,6 +56,27 @@ hr.star-primary:after {
   text-align: justify;
 }
 
+.download{
+  width: 300px;
+  background: none;
+  border: 1px solid #fff;
+  margin: 10px 500px;
+}
+
+.theme{
+  color: #fff;
+  font-size: 20px;
+}
+
+.download:hover{
+  color: #fff;
+}
+
+
+/*.download-image:hover, .theme:hover{
+  color: #18bc9c;
+}*/
+
 nav{
     background: #2c3e50;
     color: white;
