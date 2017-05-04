@@ -1,6 +1,23 @@
 /*
  * Estilos de tu proyecto
  */
+/*header*/
+header {
+    
+    text-align: center;
+    background: #18BC9C;
+    color: #fff;
+}
+.img-primaria{
+    padding-top: 54px; */
+}
+.skills{
+    font-size: 25px;
+}
+.name{
+    font-size: 68px;
+}
+/*fin header*/
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -95,20 +112,3 @@ footer a{
 	font-size: 14px;
 }
 /*termina footer*/
-/*header*/
-header {
-    
-    text-align: center;
-    background: #18BC9C;
-    color: #fff;
-}
-.img-primaria{
-    padding-top: 54px; */
-}
-.skills{
-    font-size: 25px;
-}
-.name{
-    font-size: 68px;
-}
-/*fin header*
