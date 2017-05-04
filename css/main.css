@@ -36,7 +36,24 @@ hr.star-primary:after {
 }
 
 #about{
+  height: 600px;
   background: #18bc9c;
+}
+
+.letters{
+  text-align: center;
+  font-size: 42px;
+  color: #fff;
+}
+
+.lala{
+  padding: 0 70px 10px 70px;
+}
+
+.description{
+  color: #fff;
+  font-size: 20px;
+  text-align: justify;
 }
 
 nav{
