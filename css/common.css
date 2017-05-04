@@ -144,3 +144,7 @@ a:hover {
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.text-align{
+  text-align: center;
+}

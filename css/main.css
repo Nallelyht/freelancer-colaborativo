@@ -45,7 +45,18 @@ nav a{
  color:white;
 }
 
-
+/* Contact-me*/
+#contact-me h2 {
+   text-align: center;
+   font-size: 38px;
+}
+input{
+  display: block;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: rgb(244,245,246,.2);
+}
 
 /*footer*/
 footer{
