@@ -52,10 +52,52 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+#about{
+  height: 600px;
+  background: #18bc9c;
+}
+
+.letters{
+  text-align: center;
+  font-size: 42px;
+  color: #fff;
+}
+
+.lala{
+  padding: 0 70px 10px 70px;
+}
+
+.description{
+  color: #fff;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.download{
+  width: 300px;
+  background: none;
+  border: 1px solid #fff;
+  margin: 10px 500px;
+}
+
+.theme{
+  color: #fff;
+  font-size: 20px;
+}
+
+.download:hover{
+  color: #fff;
+}
+
+
+/*.download-image:hover, .theme:hover{
+  color: #18bc9c;
+}*/
+
 nav{
     background: #2c3e50;
     color: white;
-    
+
 }
 .h1-nav{
     font-size: 25px;
@@ -75,7 +117,6 @@ background: #18BC9C;
 border: 10px solid #18BC9C;  
 
 }
-
 /* Contact-me*/
 #contact-me h2 {
    text-align: center;
