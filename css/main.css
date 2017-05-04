@@ -57,9 +57,23 @@ nav{
     color: white;
     
 }
+.h1-nav{
+    font-size: 25px;
+    display: inline;
+}
+.a-nav{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.a-nav:hover {
+color: #18BC9C;
+}
 
-nav a{
- color:white;
+div{
+background: #18BC9C;
+border: 10px solid #18BC9C;  
+
 }
 
 /* Contact-me*/
