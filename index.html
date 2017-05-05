@@ -9,31 +9,51 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 
 <body>
-	<nav class=container><!-- Gochi-->
-    	<section class="row  text-uppercase ">
-    		<section class="col-1"></section>
-	        <section class="col-2">
-	        	<h1>star bootstrap</h1>
-	        </section>
-	        <section class="col-5"></section>
-	        <section class="col-">
-	        	<a href="">Portafolio</a>
-	        </section>
-	        <section class="col-">
-	        	<a href="">About</a>
-	        </section>
-	        <section class="col-">
-	        	<a href="">Contac</a>
-	        </section>
-    	</section>
+	<nav id="barra-nav"><!-- Gochi-->
+    	<section class="container">
+            <section class="row text-uppercase m-0">
+                <section class="col-1"></section>
+    	        <section class="col-">
+                    <h1 class="h1-nav mb-0 ">start bootstrap</h1>
+                </section>
+                <section class="col-5"></section>
+    	        <section class="col-">
+                    <div class="model-nav btn-nav">
+    	        	<a class="a-nav modal-nav" href="">Portafolio</a>
+                    </div>
+    	        </section>
+    	        <section class="col-">
+                    <div class="model-nav btn-nav">
+    	        	<a class="a-nav modal-nav" href="">About</a>
+                    </div>
+    	        </section>
+    	        <section class="col-">
+                    <div class="model-nav btn-nav">
+    	        	<a class="a-nav modal-nav" href="">Contac</a>
+                    </div>
+    	        </section>
+        	</section>
+        </section>
 
     </nav>
-   
-    <header>
-        <!-- Fer -->
+       <!-- Fer -->
+    <header class="container fondo-header">
+        <section class="row">
+            <img src="./assets/images/profile.png" class="img-primaria">
+        </section>
+        <section class="row">
+            <h1 class="col-12 name mt-0 mb-0">Start Bootstrap</h1>
+        </section>
+        <section class="row">
+            <hr class="star-light "></hr>
+        </section>
+        <section class="row margen">
+            <span class="skills col-12">Web Developer - Graphic Artist - User Experience Designer</span>
+        </section>
     </header>
     <section id="portfolio" class="container">
         <!-- Rena -->
@@ -98,14 +118,33 @@
            <div class="col-4 photo-div"><img src="assets/images/portfolio/submarine.png"></div>
        </section> 
     </section>
-	  <section id="about" class="container"> <!-- Silvia -->
+		<section id="about" class="container"> <!-- Silvia -->
 			<section class="row">
-				<h2>ABOUT</h2>
-				<hr class="star-light">
+				<h2 class="col-12 letters">ABOUT</h2>
+				<section class="col-12">
+					<hr class="star-light">
+				</section>
 			</section>
-    </section>
-	<section id="contact-me"> <!--Alexis y Amalia -->
-			<section id="contact-me"> <!--Alexis y Amalia -->
+			<section class="row lala">
+				<p class="col-6 description">
+					Freelancer is a free bootstrap theme created by Start Bootstrap.
+					The download includes the complete source files including HTML, CSS,
+					and JavaScript as well as optional LESS stylesheets for easy customization.
+				</p>
+				<p class="col-6 description">
+					Whether you're a student looking to showcase your work, a professional
+					looking to attract clients, or a graphic artist looking to share your projects,
+					this template is the perfect starting point!
+				</p>
+			</section>
+			<section class="row">
+				<button class="col- download">
+					<img src="assets/images/download.svg" alt="download" width="30" class="download-image">
+					<a href="https://blackrockdigital.github.io/startbootstrap-freelancer/#" class="theme">Download Theme</a>
+				</button>
+			</section>
+	</section>
+		<section id="contact-me"> <!--Alexis y Amalia -->
           <section class="container">
             <section class="row">
               <h2 class="col-12">CONTAC ME</h2>
@@ -143,10 +182,14 @@
               <section class="col-3">
               </section>
               </section>
+              <section class="row">
+                <section class="col-3"></section>
+                <button id="send" class="col-1 espacio-row btn-form" link="#" type="submit" name="button">Send</button>
+              </section>
             </form>
           </section>
       </section>
-	</section>
+			</section>
 	<footer class="container"> <!-- Nash -->
 		<div class="row">
         <div class="col-4 footer-col">
@@ -158,11 +201,16 @@
         </div>
         <div class="col-4 footer-col">
           <h3 class="text-uppercase title-footer">Around the web</h3>
+          <a class="btn-social"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+          <a class="btn-social"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a>
+          <a class="btn-social"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+          <a class="btn-social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a class="btn-social"><i class="fa fa-dribbble fa-lg" aria-hidden="true"></i></a>
         </div>
         <div class="col-4 footer-col">
           <h3 class="text-uppercase title-footer">ABOUT FREELANCER</h3>
           <p>
-            Freelance is a free to use, open source Bootstrap theme created by 
+            Freelance is a free to use, open source Bootstrap theme created by
             <a href="#">Start Bootstrap.</a>
           </p>
         </div>
