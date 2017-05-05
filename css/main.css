@@ -36,7 +36,7 @@ hr.star-primary:after {
 }
 
 #about{
-  height: 600px;
+  height: 700px;
   background: #18bc9c;
 }
 
@@ -59,7 +59,7 @@ hr.star-primary:after {
 .download{
   width: 300px;
   background: none;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   margin: 10px 500px;
 }
 
@@ -86,7 +86,3 @@ nav{
 nav a{
  color:white;
 }
-
-
-
->>>>>>> upstream/master
