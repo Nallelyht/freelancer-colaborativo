@@ -1,6 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
+
 /*header*/
 header { 
     text-align: center;
@@ -18,6 +19,7 @@ header {
     font-size: 68px;
 }
 /*fin header*/
+/*hr estrella*/
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -51,6 +53,7 @@ hr.star-primary:after {
     color: #2c3e50;
     background-color: #fff;
 }
+/**/
 
 #about{
   height: 600px;
@@ -199,3 +202,24 @@ footer>div {
 	font-size: 14px;
 }
 /*termina footer*/
+
+/*Portofolio*/
+
+.list-description li{
+    list-style: none;
+}
+.list-description a{
+    color: #18BC9C;
+}
+
+.list-description a:hover{
+    text-decoration: underline;
+}
+close{
+    
+}
+.photo-div img{
+    max-width: 100%;
+    margin:10px;
+}
+
