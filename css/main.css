@@ -1,8 +1,9 @@
 /*
  * Estilos de tu proyecto
  */
+
 /*header*/
-header { 
+header {
     text-align: center;
     background: #18BC9C;
     color: #fff;
@@ -18,6 +19,7 @@ header {
     font-size: 68px;
 }
 /*fin header*/
+/*hr estrella*/
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -51,9 +53,10 @@ hr.star-primary:after {
     color: #2c3e50;
     background-color: #fff;
 }
+/**/
 
 #about{
-  height: 600px;
+  height: 700px;
   background: #18bc9c;
 }
 
@@ -63,7 +66,7 @@ hr.star-primary:after {
   color: #fff;
 }
 
-.lala{
+.text-ex{
   padding: 0 70px 10px 70px;
 }
 
@@ -74,25 +77,26 @@ hr.star-primary:after {
 }
 
 .download{
-  width: 300px;
+  width: 250px;
+  color: #fff;
+  font-size: 20px;
   background: none;
-  border: 1px solid #fff;
-  margin: 10px 500px;
+  border: 2px solid #fff;
+  margin: 10px 530px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
 }
 
 .theme{
-  color: #fff;
-  font-size: 20px;
+  display: inline;
+  margin-left: 10px;
 }
 
 .download:hover{
-  color: #fff;
-}
-
-
-/*.download-image:hover, .theme:hover{
+  background-color: #fff;
   color: #18bc9c;
-}*/
+}
 
 nav{
     position: fixed;
@@ -117,7 +121,7 @@ color: #18BC9C;
 
 /*.btn-nav{
   background: #18BC9C;
-  border: 10px solid #18BC9C;  
+  border: 10px solid #18BC9C;
 
 }*/
 /* Contact-me*/
@@ -199,3 +203,86 @@ footer>div {
 	font-size: 14px;
 }
 /*termina footer*/
+
+/*Portofolio*/
+
+.list-description li{
+    list-style: none;
+}
+.list-description a{
+    color: #18BC9C;
+}
+
+.list-description a:hover{
+    text-decoration: underline;
+}
+.description-project{
+    font-size: larger;
+}
+
+.photo-div img{
+    max-width: 100%;
+    margin:10px;
+}
+/*Modal*/
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff;
+}
+
+
+/* Contenido del modal (imagen) */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Botón para cerrar */
+
+.close {
+    text-align: right;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: xx-large;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
