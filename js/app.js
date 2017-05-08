@@ -45,7 +45,7 @@ console.log(scrollY);
 
 //Modal
 
-/*var modal = document.getElementById("modal");
+var modal = document.getElementById("modal");
 var modalImg = document.getElementById("modal-imagen");
 var imagenes = [];
 var cierra = [];
@@ -70,4 +70,4 @@ for (var i = 0; i <= 6; i++){
 
 function cerrar() {
  modal.style.display = "none";
-}*/
+}
